@@ -14,11 +14,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "aaa"
-  gem.homepage = "http://github.com/bnadav/aaa"
+  gem.name = "to_roman"
+  gem.homepage = "http://github.com/bnadav/_to_roman"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Create roman representation of an integer}
+  gem.description = %Q{Create roman representation on an integer in the range 1..3999}
   gem.email = "nadav.blum@gmail.com"
   gem.authors = ["Nadav Blum"]
   # dependencies defined in Gemfile
@@ -43,7 +43,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "aaa #{version}"
+  rdoc.title = "to_roman #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
