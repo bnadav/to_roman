@@ -17,6 +17,8 @@ Algorithm adopted from: http://javascript.about.com/library/blroman.htm
 == Installation
   gem install to_roman
 
+  require 'to_roman'
+
 == Note on Patches/Pull Requests
 
 * Fork the project.

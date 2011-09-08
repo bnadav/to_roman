@@ -1,6 +1,7 @@
 class Integer
   def to_roman
     num = self
+    return "" if num <=0 || num >= 4000
     signs = ['IIII','V','XXXX','L','CCCC','D','MMMM']
     roman = signs.inject("") do |mem, sign|
       x = sign.size+1
