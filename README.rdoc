@@ -1,9 +1,24 @@
 = to_roman
 
-Description goes here.
+Add Integer#to_roman which returns a string representation of the integer value.
+
+Legal values for the operation are in the range 1..3999.
+
+For illegal values, an empty string is returned.
+
+Algorithm adopted from: http://javascript.about.com/library/blroman.htm
+
+== Examples
+
+  5.to_roman # => "V"
+  4.to_roman # => "IV"
+  -2.to_roman # => "" (Illegal)
+
+== Installation
+  gem install to_roman
 
 == Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
